@@ -11,10 +11,11 @@
 
     <!-- custom style sheet-->
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Himanshu</title>
 </head>
-<body>
 
+
+<body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header mdl-layout__header--transparent" id="header-div">
           <div class="mdl-layout-icon"></div>
@@ -24,29 +25,30 @@
             </span>
            <div class="mdl-layout-spacer"></div>
             <nav class="mdl-navigation">
-              <a class="mdl-navigation__link" href="#">ABOUT ME</a>
-              <a class="mdl-navigation__link" href="#">PROJECTS</a>
-              <a class="mdl-navigation__link" href="#">CONTACT ME</a>
+              <a class="mdl-navigation__link" href="#hello-title">ABOUT ME</a>
+              <a class="mdl-navigation__link" href="#my-projects">PROJECTS</a>
+              <a class="mdl-navigation__link" href="#get-in-touch">CONTACT ME</a>
             </nav>
             <div class="mdl-layout-spacer"></div>
           </div>
         </header>
         <img src="images/logo.png" alt="logo.png" id="tablet-logo">
+
         <div class="mdl-layout__drawer mdl-layout--no-desktop-drawer-button" id="tablet-menu">
           <span class="mdl-layout__title">
             <img src="images/logo.png" alt="logo.png" id="nav-drawer-logo">
           </span>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="#">ABOUT ME</a>
-            <a class="mdl-navigation__link" href="#">PROJECTS</a>
-            <a class="mdl-navigation__link" href="#">CONTACT ME</a>
+            <a class="mdl-navigation__link" href="#hello-title">ABOUT ME</a>
+            <a class="mdl-navigation__link" href="#my-projects">PROJECTS</a>
+            <a class="mdl-navigation__link" href="#get-in-touch">CONTACT ME</a>
           </nav>
         </div>
 
         <main class="mdl-layout__content">
             <div class="mdl-grid" id="main-content">
                 <div class="mdl-cell--middle" id="hello-title">
-                    <h1> Hello. I am Himanshu (hee-maan-shoo)</h1>
+                    <h1> Hello. I am Himanshu</h1><span id="name-sound"><em>(hee-maan-shoo)</em></span>
                 </div>
                 <div class="mdl-cell--middle">
                     <p>An aspiring full-stack developer who’s currently learning advanced CSS & Javascript.
@@ -59,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="mdl-grid section-project">
+            <div class="mdl-grid section-project" id="my-projects">
                 <div class="mdl-cell" id="project-title">
                     <h2>My Projects</h2>
                 </div>
@@ -68,126 +70,141 @@
             <div class="mdl-grid section-project">
                 <div class=" mdl-cell mdl-card mdl-shadow--4dp project-card">
                     <div class="mdl-card__title">
-                       <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+                       <h2 class="mdl-card__title-text mdl-card--border">Password Generator</h2>
                     </div>
                     <div class="mdl-card__media">
-                      <img src="skytower.jpg" width="173" height="157" border="0" alt=""
-                       style="padding:10px;">
                     </div>
                     <div class="mdl-card__supporting-text">
-                    The Sky Tower is an observation and telecommunications tower located in Auckland,
-                    New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
-                    in the Southern Hemisphere.
+                    Developed with Javascript, HTML & CSS. This application generates a random password based on user-selected criteria.
                     </div>
                     <div class="mdl-card__actions">
-                       <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+                       <a href="https://himanshu-sxna.github.io/Password-Generator/">Password Generator</a>
+                    </div>
+                    <div class="mdl-card__menu">
+                      <a href="https://github.com/himanshu-sxna/Password-Generator">
+                        <img src="images/GitHub-Mark-64px.png" alt="github.png" class="card-git-link">
+                      </a> 
                     </div>
                   </div>
     
                   <div class=" mdl-cell mdl-card mdl-shadow--4dp project-card">
                     <div class="mdl-card__title">
-                       <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+                       <h2 class="mdl-card__title-text mdl-card--border">Weather Dashboard</h2>
                     </div>
                     <div class="mdl-card__media">
-                      <img src="skytower.jpg" width="173" height="157" border="0" alt=""
-                       style="padding:10px;">
                     </div>
                     <div class="mdl-card__supporting-text">
-                    The Sky Tower is an observation and telecommunications tower located in Auckland,
-                    New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
-                    in the Southern Hemisphere.
+                      A simple weather dashboard that allows the user to search for any city's current weather condition, UV Index and the 5 days' forecast.<br> The app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.<br>
+                      It features a clean and polished user interface and is responsive, ensuring that it adapts to multiple screen sizes. The App is built using Openweather API
                     </div>
                     <div class="mdl-card__actions">
-                       <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+                       <a href="https://himanshu-sxna.github.io/weather-dashboard/">Weather Dashboard</a>
+                    </div>
+                    <div class="mdl-card__menu">
+                      <a href="https://github.com/himanshu-sxna/weather-dashboard">
+                        <img src="images/GitHub-Mark-64px.png" alt="github.png" class="card-git-link">
+                      </a> 
                     </div>
                   </div>
 
-                  <div class=" mdl-cell mdl-card mdl-shadow--4dp">
+                  <div class=" mdl-cell mdl-card mdl-shadow--4dp project-card">
                     <div class="mdl-card__title">
-                       <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
+                       <h2 class="mdl-card__title-text mdl-card--border">Responsive Portfolio Template</h2>
                     </div>
                     <div class="mdl-card__media">
-                      <img src="skytower.jpg" width="173" height="157" border="0" alt=""
-                       style="padding:10px;">
                     </div>
                     <div class="mdl-card__supporting-text">
-                    The Sky Tower is an observation and telecommunications tower located in Auckland,
-                    New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
-                    in the Southern Hemisphere.
+                      A responsive portfolio template using Bootstrap CSS framework.<br>
+                      All pages have a consistent navbar across them with working navigation links & responsive images
                     </div>
                     <div class="mdl-card__actions">
-                       <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
+                       <a href="https://himanshu-sxna.github.io/Responsive-Portfolio/">Portfolio Theme</a>
+                    <div class="mdl-card__menu">
+                      <a href="https://github.com/himanshu-sxna/Responsive-Portfolio">
+                        <img src="images/GitHub-Mark-64px.png" alt="github.png" class="card-git-link">
+                      </a> 
                     </div>
                   </div>
+            </div>
             </div>
 
             <div class="mdl-grid section-project">
-                <div class=" mdl-cell mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                       <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
-                    </div>
-                    <div class="mdl-card__media">
-                      <img src="skytower.jpg" width="173" height="157" border="0" alt=""
-                       style="padding:10px;">
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                    The Sky Tower is an observation and telecommunications tower located in Auckland,
-                    New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
-                    in the Southern Hemisphere.
-                    </div>
-                    <div class="mdl-card__actions">
-                       <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
-                    </div>
-                  </div>
-    
-                  <div class=" mdl-cell mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__title">
-                       <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
-                    </div>
-                    <div class="mdl-card__media">
-                      <img src="skytower.jpg" width="173" height="157" border="0" alt=""
-                       style="padding:10px;">
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                    The Sky Tower is an observation and telecommunications tower located in Auckland,
-                    New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
-                    in the Southern Hemisphere.
-                    </div>
-                    <div class="mdl-card__actions">
-                       <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
-                    </div>
-                  </div>
-
-                  <div class=" mdl-cell mdl-card mdl-shadow--4dp project-card">
-                    <div class="mdl-card__title">
-                       <h2 class="mdl-card__title-text">Auckland Sky Tower<br>Auckland, New Zealand</h2>
-                    </div>
-                    <div class="mdl-card__media">
-                      <img src="skytower.jpg" width="173" height="157" border="0" alt=""
-                       style="padding:10px;">
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                    The Sky Tower is an observation and telecommunications tower located in Auckland,
-                    New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
-                    in the Southern Hemisphere.
-                    </div>
-                    <div class="mdl-card__actions">
-                       <a href="http://en.wikipedia.org/wiki/Sky_Tower_%28Auckland%29">Wikipedia entry</a>
-                    </div>
-                  </div>
+              <div class=" mdl-cell mdl-card mdl-shadow--4dp project-card">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text mdl-card--border">International Space Station Locator</h2>
+                </div>
+                <div class="mdl-card__media">
+                </div>
+                <div class="mdl-card__supporting-text">
+                    This website allows the user to locate ISS. It uses the Google Maps and Where the ISS At APIs.<br>
+                    It has been developed with Semantic UI & JavaScript.
+                </div>
+                <div class="mdl-card__actions">
+                    <a href="https://arbdt.github.io/bcs-project-1/">Locate the ISS</a>
+                </div>
+                <div class="mdl-card__menu">
+                    <a href="https://github.com/arbdt/bcs-project-1">
+                        <img src="images/GitHub-Mark-64px.png" alt="github.png" class="card-git-link"></a> 
+                </div>
             </div>
 
-            <footer class="mdl-mini-footer">
-                <div>
-                    <p>&#169; 2020. All Rights Reserved</p>
-                </div>
-            </footer>
-        </main>
-    </div>
+            <div class=" mdl-cell mdl-card mdl-shadow--4dp project-card">
+              <div class="mdl-card__title">
+                 <h2 class="mdl-card__title-text mdl-card--border">Interactive Quiz</h2>
+              </div>
+              <div class="mdl-card__media">
+              </div>
+              <div class="mdl-card__supporting-text">
+                An intercative & timed vocabulary quiz, developed with Javascript, HTML & CSS. <br>
+                This app uses moment.js for the timing functions and can save scores to local storage. 
+              </div>
+              <div class="mdl-card__actions">
+                 <a href="https://himanshu-sxna.github.io/Quiz-App/">Take the Quiz</a>
+              <div class="mdl-card__menu">
+                <a href="https://github.com/himanshu-sxna/Quiz-App">
+                  <img src="images/GitHub-Mark-64px.png" alt="github.png" class="card-git-link">
+                </a> 
+              </div>
+            </div>
+          </div>
+
+          <div class=" mdl-cell mdl-card mdl-shadow--4dp project-card">
+            <div class="mdl-card__title">
+               <h2 class="mdl-card__title-text mdl-card--border">Daily Task Scheduler</h2>
+            </div>
+            <div class="mdl-card__media">
+            </div>
+            <div class="mdl-card__supporting-text">
+              A simple calendar application that allows the user to save events for each hour of the current day.<br> The app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.<br>
+              It features a clean and polished user interface and is responsive, ensuring that it adapts to multiple screen sizes.
+            </div>
+            <div class="mdl-card__actions">
+               <a href="https://himanshu-sxna.github.io/daily-planner/">Daily Task Scheduler</a>
+            <div class="mdl-card__menu">
+              <a href="https://github.com/himanshu-sxna/daily-planner">
+                <img src="images/GitHub-Mark-64px.png" alt="github.png" class="card-git-link">
+              </a> 
+            </div>
+          </div>
+        </div>
+          </div>
+              
+            
+    
+            
+
+          
+        <footer class="mdl-mini-footer">
+          <div>
+              <p>&#169; 2020. All Rights Reserved</p>
+          </div>
+    </footer>
+    </main>
+  </div>
     <!-- External scripts-->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- custom script-->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
