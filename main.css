@@ -1,0 +1,121 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#header-div,
+footer {
+    margin-top: 25px;
+    max-width: 1200px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-div a {
+    color: #000000 ;
+    text-transform: capitalize;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.mdl-navigation a {
+    color: #000000;
+}
+
+#nav-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#nav-drawer-logo {
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.mdl-layout__drawer-button {
+    margin-left: 30px !important;
+    margin-top: 30px !important;
+}
+
+.mdl-layout__drawer-button i {
+    font-size: 35px;
+}
+
+#tablet-logo {
+        display: none;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        margin: 25px 20px;
+        top: 0;
+        right: 0;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    color: #000000 !important;
+}
+
+
+#main-content {
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 935px;
+    margin-bottom: 50px;
+}
+
+#resume-btn {
+    background-color: #410FF8;
+    color: #ffffff;
+}
+
+#portfolio-grid {
+    width: 900px;
+    margin: auto;
+}
+
+.section-project {
+    background-color: #f6f6f6;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 935px;
+}
+
+.project-card {
+}
+
+footer {
+    background-color: #ffffff !important;
+}
+
+footer div {
+    margin: auto;
+}
+
+footer img {
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width: 1024px){
+   
+    #tablet-logo {
+        display: block;
+    }
+
+    .mdl-layout__drawer-button {
+        color: #000000 !important;
+    }
+
+    #main-content {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    .mdl-layout__header-row {
+        display: none;
+    }
+    
+}
