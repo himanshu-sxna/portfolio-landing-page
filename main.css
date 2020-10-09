@@ -11,8 +11,7 @@ span {
     font-family: 'Kumbh Sans', sans-serif !important;
 }
 
-#header-div,
-footer {
+#header-div {
     margin-top: 25px;
     max-width: 1200px;
     margin-bottom: 35px;
@@ -90,6 +89,7 @@ footer {
 }
 
 #project-title,
+#get-in-touch,
 .card-grid {
     width: 935px;
     margin: auto;
@@ -113,8 +113,28 @@ footer {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+.mdl-card__actions a {
+    color:#410FF8;
+}
+
+.contact-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contact-img {
+    height: 20px;
+    width: 20px;
+}
+
+#get-in-touch a {
+    text-decoration: none;
+    color: #000000;
+}
+
 footer {
-    background-color: #ffffff !important;
+    background-color: #f6f6f6 !important;
+    text-align: center;
 }
 
 footer div {
