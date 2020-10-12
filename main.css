@@ -1,7 +1,4 @@
-html {
-    scroll-behavior: smooth;
-}
-
+/* set font to Kumbh Sans*/
 
 h1,
 h2,
@@ -10,6 +7,8 @@ a,
 span {
     font-family: 'Kumbh Sans', sans-serif !important;
 }
+
+/*settings for the main header nav bar*/
 
 #header-div {
     margin-top: 25px;
@@ -20,6 +19,7 @@ span {
     border-bottom: dotted 1px #f6f6f6;
 }
 
+/* links for nav bar */
 #header-div a {
     color: #000000 ;
     text-transform: capitalize;
@@ -32,16 +32,21 @@ span {
     color: #000000;
 }
 
+/* logo*/
 #nav-logo {
     height: 50px;
     width: 50px;
 }
+
+/* logo for side bar nav*/
 
 #nav-drawer-logo {
     margin-top: 15px;
     height: 25px;
     width: 25px;
 }
+
+/* hamburger button*/
 
 .mdl-layout__drawer-button {
     margin-left: 10px !important;
@@ -52,6 +57,7 @@ span {
     font-size: 35px;
 }
 
+/* logo to be displayed on the right when hamburger menu is toggled*/
 #tablet-logo {
         display: none;
         position: absolute;
@@ -66,11 +72,13 @@ span {
     color: #000000 !important;
 }
 
+/* styling for name pronounciation*/
 #name-sound {
     font-size: 0.90em;
     margin-left: 10px;
 }
 
+/* display for headings*/
 #h1-inline {
     display: inline;
     margin-top: 0;
@@ -86,6 +94,12 @@ span {
     margin-top: 35px;
 }
 
+#intro p {
+    font-size: 1.25em;
+}
+
+
+/* portfolio grid and contact section */
 #main-content {
     margin-top: 75px;
     margin-left: auto;
@@ -94,11 +108,14 @@ span {
     margin-bottom: 50px;
 }
 
+/* download resume button*/
 #resume-btn {
     background-color: #410FF8;
     color: #ffffff;
     font-family: 'Kumbh Sans', sans-serif !important;
 }
+
+/* headings for Projects & Contact*/
 
 #project-title,
 #get-in-touch,
@@ -107,18 +124,20 @@ span {
     margin: auto;
 }
 
+/* project cards*/
 .section-project {
     background-color: #f6f6f6;
     margin-left: auto;
     margin-right: auto;
     /*max-width: 935px;*/
 }
-
+/* github repo link for projects - top right corner */
 .card-git-link {
     height: 25px;
     width: 25px;
 }
 
+/* project description*/
 .mdl-card__supporting-text {
     letter-spacing: 1px;
     line-height: 150%;
@@ -139,10 +158,13 @@ span {
     width: 20px;
 }
 
+/* links for contact section*/
 #get-in-touch a {
     text-decoration: none;
     color: #000000;
 }
+
+/* footer section */
 
 footer {
     background-color: #f6f6f6 !important;
@@ -152,6 +174,11 @@ footer {
 footer div {
     margin: auto;
 }
+
+/* media queries to  :
+    display right hand side logo
+    set margin for main content on page on mobile
+    hide main nav links on mobile */
 
 @media screen and (max-width: 1024px){
    
